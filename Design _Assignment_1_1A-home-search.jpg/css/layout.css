@@ -1,0 +1,134 @@
+.header {
+    height: 160px;
+}
+
+.header-top{
+    height: 80px;
+}
+
+.header-top-main {
+    height: 70px;
+    background: #76c7c1;
+}
+.header-main-left{
+    padding-left: 172px;
+    padding-top: 21px;
+    height: 29px;
+    width: auto;
+    float:left;
+}
+.header-main-right{
+    float: right;
+    padding-right: 172px;
+}
+.header-main-right li{
+    list-style-type:none;
+    padding-left: 50px;
+    float: left;
+    padding-top: 35px;
+    font-size: 12px;
+}
+
+
+.menu li a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    
+}
+.rural-image{
+    height: 10px;
+}
+
+
+.header-bottom {
+    background: #ececec;
+    height: 80px;
+    float: left;
+    width: 1500px;
+}
+
+.header-bottom-left{
+    float: left;
+    padding-left: 172px;
+    padding-top: 32px;
+    color: #808a89;
+    font-size: 20px;
+}
+.header-bottom-right{
+    float: right;
+    padding-right: 169px;
+    padding-top: 36px;
+}
+.menu-header-bottom li{
+    float:left;
+    padding-left: 9px;
+    list-style-type: none;
+    color: #808a89;
+    font-size: 13px;
+}
+.arrow-image{
+    float: left;
+    height: 12px;
+}
+.main{
+    background: #f3f3f3;
+}
+.main-body{
+    width: 1170px;
+    height: 1479px;
+    margin:auto;
+}
+.body-content{
+    padding-top: 41px;
+}
+
+.body-content h1{
+    color: #e6513d;
+ 
+    width: 100%;
+    text-align: left;
+}
+.details{
+    text-align: justify;
+    display:block;
+}
+.col3-left{
+    float: left;
+    text-align: left;
+}
+.footer-ruler{
+    height: 10px;
+}
+
+.footer-main{
+    background: #76c7c1;
+    height: 281px;
+}
+.footer-bottom{
+    height: 50px;
+    background: #6bb4ad;
+}
+.footer-bottom-right{
+    float: right;
+}
+
+.footer-bottom-right ul{
+    padding-right: 166px;
+    padding-top: 13px;
+}
+.footer-bottom-right ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 29px;
+}
+.footer-bottom-left{
+    float: left;
+    padding-left : 168px;
+    padding-top : 22px;
+    color: white;
+}
+
+.clearfix{
+    overflow: auto;
+}
