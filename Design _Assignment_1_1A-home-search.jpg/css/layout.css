@@ -93,6 +93,10 @@
     text-align: justify;
     display:block;
 }
+.col3-left{
+    float: left;
+    text-align: left;
+}
 .footer-ruler{
     height: 10px;
 }
