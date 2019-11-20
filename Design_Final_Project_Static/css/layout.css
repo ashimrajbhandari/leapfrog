@@ -1,0 +1,302 @@
+.wrapper{
+    width: 1440px;
+    margin: 0px auto;
+    background-image: url("../images/background-img-block.png");
+    /* background-repeat: repeat; */
+}
+
+.header-wrapper{
+    width: 980px;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+.header-top{
+    height: 67px;
+    float: left;
+    width: 980px;
+    margin-bottom: 23px;
+}
+
+.header-motto{
+    float: left;
+}
+
+.header-motto h2{
+    display: inline-block;
+    margin-top: 25px;
+}
+.header-motto p{
+    display: inline-block;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #cc003e;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.cart-menu{
+    float: right;
+    margin-top: 26px;
+}
+
+.cart-menu ul li{
+    float: left;
+    list-style-type: none;
+    padding-left:16px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.cart-menu ul li a:hover{
+    color: #d01850;
+}
+
+.cart-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.cart-img{
+    padding-right: 9px;
+}
+
+.line-separator{
+    width: 980px;
+    height: 1px;
+    background-image: url("../images/header-line-separator.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.login{
+    margin-left: 168px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login span{
+    font-weight: bold;
+    padding-right: 2px;
+    float: left;
+    padding-top: 11px;
+}
+
+.login input{
+    margin-left: 14px;
+    border: 1px solid #dadada;
+}
+
+.login input[type="email"], .login input[type="password"]{
+    padding: 10px 0px 10px 10px;
+    float: left;
+}
+
+.login input[type="password"]{
+    border: none;
+    float: left;
+}
+.password-and-forget{
+    float: left;
+    background:white;
+    border: 1px solid #dadada;
+    padding-right: 10px;
+    margin-left: 12px;
+}
+
+.password-and-forget a{
+    display: inline-block;
+    padding-top: 10px ;
+}
+
+.login button{
+    margin-left: 13px;
+    height: 30px;
+    widows: 142px;
+    background: #d0184f;
+    color: white;
+    border: none;
+    padding: 9px 19px;
+}
+
+.login .submit{
+    height: 30px;
+    width: 71px;
+    background: #d0184f;
+    border: none;
+    color: white;
+    padding: 9px 18px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #d0184f;
+}
+
+
+
+
+
+
+nav{
+    float: left;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    width: 980px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 22px;
+    padding-right: 40px;
+    color: #5a5a5a;
+}
+
+.searchbar{
+    float: right;
+}
+
+.searchbar-inner input{
+    border: none;
+}
+
+.searchbar-inner{
+    border: 1px solid #dadada;
+    padding: 6px;
+}
+
+
+
+.banner{
+    background-image: url("../images/banner-image.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 500px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    float: left;
+    
+}
+
+
+
+
+
+footer{
+    height: 398px;
+    background: #333333;
+    width: 1440px;
+    margin: 0px auto;
+    float: left;
+}
+
+.footer-wrapper{
+    width: 980px;
+    margin: 0px auto;
+}
+
+.footer-content{
+    padding-top: 45px;
+}
+
+.footer-navigation{
+    float: left;
+    color: white;
+    width: 136px;
+}
+
+.footer-navigation h2{
+    padding-bottom: 13px;
+    float: left;
+}
+
+.footer-navigation .footer-content-line{
+    background-image: url("../images/footer-content-line-separator.png");
+    background-repeat: repeat-x;
+    height: 2px;
+    padding-top: 31px;
+    padding-bottom: 12px;
+    display: inline-block;
+    width: 136px;
+}
+
+.footer-navigation ul{
+    list-style: none;
+    line-height: 26px;
+    padding-left: 17px;
+    font-size: 12px;
+}
+
+.footer-navigation li::before {
+    content: "\2022";
+    color: #ff2d6d;
+    font-weight: bold;
+    display: inline-block; 
+    width: 16px;
+    margin-left: -16px;
+}
+
+.footer-latest-tweets{
+    float: left;
+    color: white;
+    padding-left: 35px;
+    width: 329px;
+}
+
+.footer-latest-tweets h2{
+    float: left;
+    padding-bottom: 13px;
+}
+
+.footer-latest-tweets .footer-content-line{
+    background-image: url("../images/footer-content-line-separator.png");
+    background-repeat: repeat-x;
+    height: 2px;
+    display: inline-block;
+    width: 329px;
+}
+
+.footer-twitter-list{
+    padding-top: 30px;
+    float: left;
+}
+
+.footer-twitter-list ul{
+    list-style-type: none;
+}
+
+.footer-twitter-list ul li{
+    line-height: 18px;
+    padding-bottom: 25px;
+}
+
+.footer-twitter-list ul li img{
+    float: left;
+}
+.footer-twitter-list ul li p{
+    display: inline-block;
+    float: left;
+    width: 295px;
+    padding-left: 13px;
+    font-size: 12px;
+}
+
+.footer-twitter-list p span, .footer-twitter-list p span a{
+    color: #d52d5e;
+}
+
+.latest-tweets-padding{
+    padding-bottom: 25px;
+}
