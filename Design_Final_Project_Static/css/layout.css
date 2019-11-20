@@ -226,8 +226,7 @@ footer{
     background-image: url("../images/footer-content-line-separator.png");
     background-repeat: repeat-x;
     height: 2px;
-    padding-top: 31px;
-    padding-bottom: 12px;
+    padding-bottom: 31px;
     display: inline-block;
     width: 136px;
 }
@@ -266,20 +265,21 @@ footer{
     height: 2px;
     display: inline-block;
     width: 329px;
+    padding-bottom: 31px;
 }
 
 .footer-twitter-list{
-    padding-top: 30px;
     float: left;
 }
 
 .footer-twitter-list ul{
-    list-style-type: none;
+
 }
 
 .footer-twitter-list ul li{
     line-height: 18px;
     padding-bottom: 25px;
+    list-style-type: none;
 }
 
 .footer-twitter-list ul li img{
