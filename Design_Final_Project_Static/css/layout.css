@@ -300,3 +300,111 @@ footer{
 .latest-tweets-padding{
     padding-bottom: 25px;
 }
+
+.footer-newsletter{
+    float: left;
+    color: white;
+    padding-left: 35px;
+    width: 230px;
+}
+
+.footer-newsletter h2{
+    float: left;
+    padding-bottom: 13px;
+}
+
+.footer-newsletter .footer-content-line{
+    background-image: url("../images/footer-content-line-separator.png");
+    background-repeat: repeat-x;
+    height: 2px;
+    display: inline-block;
+    width: 230px;
+    padding-bottom: 31px;
+}
+
+.footer-newsletter p{
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Arial;
+    padding-bottom: 24px;
+}
+
+.newsletter-search{
+    width: 230px;
+    background: white;
+    height: 28px;
+}
+
+.newsletter-search .newsletter-image{
+    float: left;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.newsletter-search .newsletter-searchform input{
+    display: inline-block;
+    padding: 6px 0px 6px 10px;
+    width: 207px;
+    border: none;
+}
+
+/* .newsletter-search .newsletter-searchform input:focus{
+    border-style: none;
+} */
+
+.footer-aboutus{
+    float: left;
+    color: white;
+    padding-left: 35px;
+    width: 180px;
+}
+
+.footer-aboutus h2{
+    float: left;
+    padding-bottom: 13px;
+}
+
+.footer-aboutus .footer-content-line{
+    background-image: url("../images/footer-content-line-separator.png");
+    background-repeat: repeat-x;
+    height: 2px;
+    display: inline-block;
+    width: 230px;
+    padding-bottom: 31px;
+}
+
+.footer-aboutus p{
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Arial;
+}
+
+.aboutus-social-media{
+    float: left;
+    display: block;
+}
+
+.aboutus-social-media ul{
+    padding-top: 24px;
+}
+
+.aboutus-social-media ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding-right: 9px;
+}
+
+.payment{
+    display: block;
+    float: left;
+    padding-top: 25px;
+}
+
+.payment ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 9px;
+    display: inline-block;
+}
