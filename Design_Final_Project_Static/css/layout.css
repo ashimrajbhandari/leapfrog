@@ -510,6 +510,179 @@ width: 980px;
 
 
 
+
+
+.blog-seller-about{
+    width: 100%;
+    float: left;
+    padding-bottom: 49px;
+}
+
+.latest-news-blog{
+    width: 365px;
+    float: left;
+}
+
+.latest-news-blog h2{
+    color: #7c7c7c;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 14px;
+}
+
+.latest-from-blog-content{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.latest-from-blog-content p:first-child{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: crimson;
+}
+
+.latest-news-blog ul{
+    float: left;
+    width:100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.latest-news-blog ul li{
+    list-style-type: none;
+    float: left;
+    font-family: Arial;
+    font-size: 11px;
+    padding-right: 15px;
+}
+
+.latest-news-blog ul li img{
+    padding-right: 9px;
+}
+
+.latest-blog-info{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.line-separator1{
+    height: 1px;
+    background-image: url("../images/header-line-separator.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+.best-sellers{
+    width: 295px;
+    float: left;
+    padding-left: 35px;
+}
+
+.best-sellers h2{
+    color: #7c7c7c;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 14px;
+}
+
+.best-sellers-images{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+.best-sellers-level1{
+    width: 100%;
+    float: left;
+}
+
+.best-seller1{
+    float: left;
+    padding-right: 19px;
+}
+
+.best-seller2{
+    float: right;
+}
+
+.best-sellers-level2{
+    width: 100%;
+    float: left;
+    padding-top: 19px;
+}
+.best-seller3{
+    float: left;
+    padding-right: 19px;
+}
+
+.best-seller4{
+    float: right;
+}
+
+
+
+
+.about-and-contacts{
+    width: 249px;
+    float: left;
+    padding-left: 35px;
+}
+
+.about-and-contacts h2{
+    color: #7c7c7c;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 14px;
+}
+
+.about-and-contacts-content{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.about-and-contacts p{
+    line-height: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #333333;
+}
+.about-and-contacts p:first-child{
+    padding-bottom: 31px;
+}
+
+.about-and-contacts .second-child{
+    padding-bottom: 34px;
+}
+
+.phone-number{
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    padding-bottom: 16px;
+}
+
+.phone-number img{
+    padding-right: 16px;
+}
+
+.email{
+    font-size:18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;    
+}
+
+.email img{
+    padding-right: 16px;
+}
+
+
+
+
 footer{
     height: 398px;
     background: #333333;
