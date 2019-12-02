@@ -3,8 +3,8 @@
 	function Box(parentElement) {
 		this.x = 10;
 		this.y = 10;
-		this.speedx = 1;
-		this.speedy = 1;
+		this.speedx = 0.5;
+		this.speedy = 0.5;
 		this.width = 40;
 		this.height = 40;
 		this.element = null;
@@ -106,7 +106,7 @@
 				boxes.push(box);
 			}
 
-			setInterval(this.moveBoxes.bind(this), 10);
+			setInterval(this.moveBoxes.bind(this), 1);
 		}
 
 		this.moveBoxes = function () {
